@@ -1,26 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
+import axios from 'axios';
+// import json from '../public/fish.json';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      fish: []
+    };
+  }
+  componentDidMount(){
+    axios.get('../fish.json').then(response => {
+      this.setState({
+        fish: response.data
+      });
+      console.log(response)
+    })
+  }
+  render(){
+    let mappedFish = this.state.fish.map((fish) => 
+      <div key={fish.id}>
+        <div>{fish.name}</div>
+        <div>{fish.location}</div>
+        <div>{fish.price}</div>
+      </div>)
+    return (
+      <div>{mappedFish}</div>
+    )
+  }
 }
 
 export default App;
