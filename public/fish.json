@@ -1534,7 +1534,7 @@
     {
         "id": 28,
         "name": "Char",
-        "location": "River (Clifftop)\/Pond",
+        "location": "River (Clifftop)",
         "shadow_size": "Medium",
         "price": 3800,
         "times": {
