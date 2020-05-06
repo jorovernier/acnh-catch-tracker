@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Fishes from './Components/Fishes';
+import Login from './Components/Login';
 
 class App extends React.Component {
   constructor(props){
@@ -10,6 +11,7 @@ class App extends React.Component {
   render(){
     return (
       <div className='main'>
+        <Login/>
         <Fishes/>
       </div>
     )
