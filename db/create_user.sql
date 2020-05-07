@@ -11,11 +11,7 @@ INSERT INTO bugs (b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b
 VALUES (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 
 UPDATE bugs
-SET user_id = bug_id;
+SET user_id = bugs_id;
 
 SELECT username FROM users
-WHERE username = $1;
-
-SELECT users.user_id, username, password FROM users
-JOIN fishies ON (users.user_id = team.user_id)
 WHERE username = $1;

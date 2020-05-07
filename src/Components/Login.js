@@ -1,8 +1,8 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {setUser} from '../redux/reducer';
-// import {Redirect} from 'react-router-dom';
 import axios from 'axios';
+import '../SASS/Login.scss';
 
 class Login extends React.Component {
     constructor(props){
@@ -39,8 +39,8 @@ class Login extends React.Component {
     render(){
         const {username, password, register} = this.state;
         return this.props.user ? (
-            <div>
-                <button className='logout' onClick={() => {
+            <div className='logout'>
+                <button className='out-butt' onClick={() => {
                     axios.delete('/auth/logout').then(() => {
                     this.props.setUser(null);
                     });
@@ -48,7 +48,7 @@ class Login extends React.Component {
                 }} >Logout</button>
             </div>
             ) : (
-            <div>
+            <div className='login-register'>
                 <form onSubmit={(e) => {
                     e.preventDefault();
                     if(register){
@@ -58,12 +58,12 @@ class Login extends React.Component {
                     }
                 }}>
                     <div className='inputs'>
-                            <div className='username-i'>
-                                <label>Username</label>
-                                <input type='username' value={username} onChange={(e) => this.setState({
-                                    username: e.target.value
-                                })} />
-                            </div>
+                        <div className='username-i'>
+                            <label>Username</label>
+                            <input type='username' value={username} onChange={(e) => this.setState({
+                                username: e.target.value
+                            })} />
+                        </div>
                         <div className='password-i'>
                             <label>Password</label>
                             <input type='password' value={password} onChange={(e) => this.setState({

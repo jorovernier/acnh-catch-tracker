@@ -1,3 +1,7 @@
+DROP TABLE IF EXISTS bugs;
+DROP TABLE IF EXISTS fishies;
+DROP TABLE IF EXISTS users;
+
 CREATE TABLE users (
     user_id SERIAL PRIMARY KEY,
     username TEXT UNIQUE NOT NULL,
@@ -5,7 +9,7 @@ CREATE TABLE users (
 );
 
 INSERT INTO users (username, password)
-VALUES ('jorochungo', 'cinnibar');
+VALUES ('jorochungo', '$2b$12$OB9R5hGXaPXcKfT6NW5OOOkTqebS/pDXrUa6.DhqfXn9X3jw2sYN6');
 
 CREATE TABLE fishies (
     fishies_id SERIAL PRIMARY KEY,

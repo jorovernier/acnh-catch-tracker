@@ -17,7 +17,7 @@ module.exports = {
         }
     },
     login: (req, res, next) => {
-        const {password} = req.body;
+        const {username, password} = req.body;
         const db = req.app.get('db');
         db.find_user(username).then(([foundUser]) => {
             if(!foundUser) {
@@ -43,5 +43,35 @@ module.exports = {
     },
     userSession: (req, res, next) => {
         res.status(200).send(req.session.user);
+    },
+    getFish: async (req, res, next) => {
+        const db = await req.app.get('db');
+        const {user_id} = req.session.user;
+        db.get_fish(user_id).then(fish => {
+            res.status(200).send(fish)
+        }).catch(err => {res.status(500).send(console.log(err))})
+    },
+    getBugs: async (req, res, next) => {
+        const db = await req.app.get('db');
+        const {user_id} = req.session.user;
+        db.get_bugs(user_id).then(bugs => {
+            res.status(200).send(bugs)
+        }).catch(err => {res.status(500).send(console.log(err))})
+    },
+    updateFish: (req, res, next) => {
+        const db = req.app.get('db');
+        const {caught, slot} = req.body;
+        const {user_id} = req.session.user;
+        db.update_fish(caught, user_id, slot).then(boolean => {
+            res.status(200).send(boolean);
+        }).catch(err => {res.status(500).send(console.log(err))})
+    },
+    updateBugs: (req, res, next) => {
+        const db = req.app.get('db');
+        const {caught, slot} = req.body;
+        const {user_id} = req.session.user;
+        db.update_bugs(caught, user_id, slot).then(boolean => {
+            res.status(200).send(boolean);
+        }).catch(err => {res.status(500).send(console.log(err))})
     }
 }

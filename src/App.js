@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Fishes from './Components/Fishes';
 import Login from './Components/Login';
+import {connect} from 'react-redux';
 
 class App extends React.Component {
   constructor(props){
@@ -9,13 +10,22 @@ class App extends React.Component {
     this.state = {};
   }
   render(){
+    console.log(this.props);
     return (
       <div className='main'>
         <Login/>
-        <Fishes/>
+        {this.props.user && <Fishes/>}
       </div>
     )
   }
 }
 
-export default App;
+function mapReduxSateToProps(reduxState){
+  return reduxState;
+};
+
+const enhancedComponent = connect(
+  mapReduxSateToProps
+);
+
+export default enhancedComponent(App);

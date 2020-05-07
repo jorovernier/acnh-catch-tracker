@@ -1,0 +1,48 @@
+.logout {
+    background-color: blue;
+}
+
+.login-register {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form {
+        background-color: green;
+        border: 3px solid darkgreen;
+        border-radius: 50px;
+        height: 200px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .inputs {
+            // background-color: blue;
+            height: 110px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            .username-i {
+                // background-color: orange;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .password-i {
+                // background-color: yellow;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .submit {
+                background-color: orchid;
+            }
+        }
+        .switcher {
+            background-color: red;
+        }
+    }
+}
