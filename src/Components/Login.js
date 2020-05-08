@@ -38,16 +38,7 @@ class Login extends React.Component {
 
     render(){
         const {username, password, register} = this.state;
-        return this.props.user ? (
-            <div className='logout'>
-                <button className='out-butt' onClick={() => {
-                    axios.delete('/auth/logout').then(() => {
-                    this.props.setUser(null);
-                    });
-                    window.alert('See you later!');
-                }} >Logout</button>
-            </div>
-            ) : (
+        return (
             <div className='login-register'>
                 <form onSubmit={(e) => {
                     e.preventDefault();

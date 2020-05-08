@@ -1,8 +1,11 @@
 import React from 'react';
 import './App.css';
 import Fishes from './Components/Fishes';
+import Bugs from './Components/Bugs';
 import Login from './Components/Login';
+import Logout from './Components/Logout';
 import {connect} from 'react-redux';
+import {Switch, NavLink, Route, withRouter, Redirect} from 'react-router-dom';
 
 class App extends React.Component {
   constructor(props){
@@ -10,11 +13,21 @@ class App extends React.Component {
     this.state = {};
   }
   render(){
-    console.log(this.props);
     return (
       <div className='main'>
-        <Login/>
-        {this.props.user && <Fishes/>}
+        {this.props.user && <Logout/>}
+        {this.props.user && 
+          <div className='navlinks'>
+            <NavLink to='/fish' >Fish</NavLink>
+            <NavLink to='/bugs' >Bugs</NavLink>
+          </div>
+        }
+          <Switch>
+            <Route exact path='/' render={(props) => (this.props.user ? <Redirect to='/fish' /> : <Login {...props}/>)} />
+            {this.props.user && <Route path='/fish' component={Fishes} />}
+            {this.props.user && <Route path='/bugs' component={Bugs} />}
+            <Route path='*' render={() => {return <Redirect to='/' />}} />
+          </Switch>
       </div>
     )
   }
@@ -24,8 +37,6 @@ function mapReduxSateToProps(reduxState){
   return reduxState;
 };
 
-const enhancedComponent = connect(
-  mapReduxSateToProps
-);
+const invokedConnect = connect(mapReduxSateToProps);
 
-export default enhancedComponent(App);
+export default invokedConnect(withRouter(App));
