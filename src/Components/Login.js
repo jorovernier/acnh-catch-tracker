@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import {setUser} from '../redux/reducer';
 import axios from 'axios';
 import '../SASS/Login.scss';
+import logo from '../Images/acnh-tracker-logo.png';
 
 class Login extends React.Component {
     constructor(props){
@@ -39,34 +40,42 @@ class Login extends React.Component {
     render(){
         const {username, password, register} = this.state;
         return (
-            <div className='login-register'>
-                <form onSubmit={(e) => {
-                    e.preventDefault();
-                    if(register){
-                        this.register();
-                    } else {
-                        this.login();
-                    }
-                }}>
-                    <div className='inputs'>
-                        <div className='username-i'>
-                            <label>Username</label>
-                            <input type='username' value={username} onChange={(e) => this.setState({
-                                username: e.target.value
-                            })} />
-                        </div>
-                        <div className='password-i'>
-                            <label>Password</label>
-                            <input type='password' value={password} onChange={(e) => this.setState({
-                                password: e.target.value
-                            })} />
-                        </div>
-                        {this.state.failed && <div>Incorrect username or password.</div>}
-                        <button className='submit'>Submit</button>
+            <div className='login-body'>
+                <div className='bubble'>
+                    <div className='welcome'>
+                        <p>Welcome to Animal Crossing New Horizons </p>
+                        <img src={logo} alt='catch tracker' />
                     </div>
-                    {!register && <button className='switcher' onClick={() => {this.setState({register: true})}}>Switch to Register</button>}
-                    {register && <button className='switcher' onClick={() => {this.setState({register: false})}}>Switch to Login</button>}
-                </form>
+                    <div className='login-register'>
+                        <form onSubmit={(e) => {
+                            e.preventDefault();
+                            if(register){
+                                this.register();
+                            } else {
+                                this.login();
+                            }
+                        }}>
+                            <div className='inputs'>
+                                <div className='username-i'>
+                                    <label>Username</label>
+                                    <input type='username' value={username} onChange={(e) => this.setState({
+                                        username: e.target.value
+                                    })} />
+                                </div>
+                                <div className='password-i'>
+                                    <label>Password</label>
+                                    <input type='password' value={password} onChange={(e) => this.setState({
+                                        password: e.target.value
+                                    })} />
+                                </div>
+                                {this.state.failed && <div>Incorrect username or password.</div>}
+                                <button className='submit'>Submit</button>
+                            </div>
+                            {!register && <button className='switcher' onClick={() => {this.setState({register: true})}}>Switch to Register</button>}
+                            {register && <button className='switcher' onClick={() => {this.setState({register: false})}}>Switch to Login</button>}
+                        </form>
+                    </div>
+                </div>
             </div>
         )
     }

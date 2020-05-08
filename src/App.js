@@ -1,5 +1,7 @@
 import React from 'react';
-import './App.css';
+import './SASS/App.scss';
+import logo from './Images/acnh-tracker-logo.png';
+import './Fonts/FinkHeavy.ttf';
 import Fishes from './Components/Fishes';
 import Bugs from './Components/Bugs';
 import Login from './Components/Login';
@@ -15,12 +17,17 @@ class App extends React.Component {
   render(){
     return (
       <div className='main'>
-        {this.props.user && <Logout/>}
         {this.props.user && 
-          <div className='navlinks'>
-            <NavLink to='/fish' >Fish</NavLink>
-            <NavLink to='/bugs' >Bugs</NavLink>
-          </div>
+          <header className='llo'>
+            <img className='logo' src={logo} alt='catch tracker'/>
+            <div className='out-links'>
+              <div className='navlinks'>
+                <NavLink to='/fish' >Fish</NavLink>
+                <NavLink to='/bugs' >Bugs</NavLink>
+              </div>
+              <Logout/>
+            </div>
+          </header>
         }
           <Switch>
             <Route exact path='/' render={(props) => (this.props.user ? <Redirect to='/fish' /> : <Login {...props}/>)} />
@@ -28,6 +35,9 @@ class App extends React.Component {
             {this.props.user && <Route path='/bugs' component={Bugs} />}
             <Route path='*' render={() => {return <Redirect to='/' />}} />
           </Switch>
+          <footer>
+            <small>&copy; Copyright 2020 Joely Vernier All Rights Reserved</small>
+          </footer>
       </div>
     )
   }
