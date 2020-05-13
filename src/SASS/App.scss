@@ -1,3 +1,5 @@
+@import './variable.scss';
+
 @font-face {
     font-family: 'FinkHeavy';
     src: local('FinkHeavy'), url(../Fonts/FinkHeavy.ttf)
@@ -11,28 +13,38 @@
     justify-content: space-around;
     align-items: center;
     .llo {
-        height: 10vh;
+        border-bottom: 3px solid black;
+        height: 100px;
         width: 100vw;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: yellow;
+        background-color: $green;
         .logo {
             height: 100px;
             margin: 0px 10px;
         }
         .out-links {
-            background-color: red;
-            width: 300px;
+            width: 500px;
             height: 75px;
             display: flex;
-            justify-content: flex-end;
+            justify-content: space-around;
+            align-items: center;
+            .navlinks {
+                font-size: 30px;
+                text-decoration: none;
+                width: 400px;
+                display: flex;
+                justify-content: space-around;
+            }
         }
     }
     footer {
         height: 5vh;
         width: 80%;
-        background-color: darkgreen;
+        position: relative;
+        bottom: 0px;
+        background-color: transparent;
         display: flex;
         align-items: center;
         justify-content: center;

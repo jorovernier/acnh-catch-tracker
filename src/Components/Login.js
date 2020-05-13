@@ -4,6 +4,7 @@ import {setUser} from '../redux/reducer';
 import axios from 'axios';
 import '../SASS/Login.scss';
 import logo from '../Images/acnh-tracker-logo.png';
+import nook from '../Images/nook.png';
 
 class Login extends React.Component {
     constructor(props){
@@ -43,10 +44,13 @@ class Login extends React.Component {
             <div className='login-body'>
                 <div className='bubble'>
                     <div className='welcome'>
-                        <p>Welcome to Animal Crossing New Horizons </p>
+                        <p>Welcome to the Animal Crossing New Horizons </p>
                         <img src={logo} alt='catch tracker' />
                     </div>
                     <div className='login-register'>
+                        <div className='potential'>
+                            <img src={nook} alt='Login to access tracking for fish, bugs, flowers, and fossils!'/>
+                        </div>
                         <form onSubmit={(e) => {
                             e.preventDefault();
                             if(register){
@@ -69,10 +73,12 @@ class Login extends React.Component {
                                     })} />
                                 </div>
                                 {this.state.failed && <div>Incorrect username or password.</div>}
-                                <button className='submit'>Submit</button>
+                                <div className='login-buttons'>
+                                    <button className='submit'>Submit</button>
+                                    {!register && <button className='switcher' onClick={() => {this.setState({register: true})}}>Switch to Register</button>}
+                                    {register && <button className='switcher' onClick={() => {this.setState({register: false})}}>Switch to Login</button>}
+                                </div>
                             </div>
-                            {!register && <button className='switcher' onClick={() => {this.setState({register: true})}}>Switch to Register</button>}
-                            {register && <button className='switcher' onClick={() => {this.setState({register: false})}}>Switch to Login</button>}
                         </form>
                     </div>
                 </div>

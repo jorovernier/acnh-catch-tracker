@@ -1,64 +1,87 @@
+@import './variable.scss';
+
 .logout {
-    background-color: blue;
+    .out-butt {
+        @extend %button-setting;
+    }
 }
 
 .login-body {
-    // background-color: darkgreen;
-    background-color: darkgreen;
     height: 95vh;
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     .bubble {
-        background-color: rgb(128, 190, 128);
+        background-color: $green;
         height: 80%;
         width: 80%;
         border: 3px solid black;
         border-radius: 50px;
         .welcome {
-            background-color: darkmagenta;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            p {
+                font-size: 50px;
+            }
         }
         .login-register {
-            background-color: darkorange;
             display: flex;
             justify-content: center;
             align-items: center;
+            .potential {
+                width: 500px;
+            }
             form {
-                background-color: green;
-                border: 3px solid darkgreen;
                 border-radius: 50px;
-                height: 200px;
-                width: 200px;
+                height: 300px;
+                width: 500px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: space-evenly;
                 .inputs {
-                    // background-color: blue;
-                    height: 110px;
+                    background-image: url(../Images/brick-path.png);
+                    border: 3px dotted #b25821;
+                    height: 200px;
+                    width: 400px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     justify-content: space-evenly;
                     .username-i {
-                        // background-color: orange;
+                        width: 350px;
                         display: flex;
                         flex-direction: column;
-                        align-items: center;
+                        label {
+                            font-size: 30px;
+                        }
+                        .username {
+                            width: 300px;
+                        }
                     }
                     .password-i {
-                        // background-color: yellow;
+                        width: 350px;
                         display: flex;
                         flex-direction: column;
-                        align-items: center;
+                        label {
+                            font-size: 30px;
+                        }
+                        .password {
+                            width: 300px;
+                        }
                     }
-                    .submit {
-                        background-color: orchid;
+                    .login-buttons {
+                        .submit {
+                            @extend %button-setting;
+                        }
+                        .switcher {
+                            @extend %button-setting;
+                        }
                     }
-                }
-                .switcher {
-                    background-color: red;
                 }
             }
         }

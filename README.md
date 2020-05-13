@@ -1,5 +1,8 @@
 # Animal Crossing New Horizons Catch Tracker
 
+- Tracks fish and bugs caught, fossils aquired, and flowers grown in Nintendo's newest Animal Crossing game.
+- FinkHeavy font provided by Fontsmagazine.com
+
 ## Front End
 
 **Dependencies**
