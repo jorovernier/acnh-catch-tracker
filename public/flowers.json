@@ -1,0 +1,214 @@
+[
+    {
+        "name": "Red Cosmos",
+        "price": 40
+    },
+    {
+        "name": "Yellow Cosmos",
+        "price": 40
+    },
+    {
+        "name": "White Cosmos",
+        "price": 40
+    },
+    {
+        "name": "Pink Cosmos",
+        "price": 80
+    },
+    {
+        "name": "Orange Cosmos",
+        "price": 80
+    },
+    {
+        "name": "Black Cosmos",
+        "price": 240
+    },
+    {
+        "name": "Red Hyacinths",
+        "price": 40
+    },
+    {
+        "name": "Yellow Hyacinths",
+        "price": 40
+    },
+    {
+        "name": "White Hyacinths",
+        "price": 40
+    },
+    {
+        "name": "Pink Hyacinths",
+        "price": 80
+    },
+    {
+        "name": "Orange Hyacinths",
+        "price": 80
+    },
+    {
+        "name": "Blue Hyacinths",
+        "price": 80
+    },
+    {
+        "name": "Purple Hyacinths",
+        "price": 240
+    },
+    {
+        "name": "Red Lilies",
+        "price": 40
+    },
+    {
+        "name": "Yellow Lilies",
+        "price": 40
+    },
+    {
+        "name": "White Lilies",
+        "price": 40
+    },
+    {
+        "name": "Pink Lilies",
+        "price": 80
+    },
+    {
+        "name": "Orange Lilies",
+        "price": 80
+    },
+    {
+        "name": "Black Lilies",
+        "price": 80
+    },
+    {
+        "name": "Red Mums",
+        "price": 40
+    },
+    {
+        "name": "Yellow Mums",
+        "price": 40
+    },
+    {
+        "name": "White Mums",
+        "price": 40
+    },
+    {
+        "name": "Pink Mums",
+        "price": 80
+    },
+    {
+        "name": "Purple Mums",
+        "price": 80
+    },
+    {
+        "name": "Green Mums",
+        "price": 240
+    },
+    {
+        "name": "Red Pansies",
+        "price": 40
+    },
+    {
+        "name": "Yellow Pansies",
+        "price": 40
+    },
+    {
+        "name": "White Pansies",
+        "price": 40
+    },
+    {
+        "name": "Orange Pansies",
+        "price": 80
+    },
+    {
+        "name": "Blue Pansies",
+        "price": 80
+    },
+    {
+        "name": "Purple Pansies",
+        "price": 240
+    },
+    {
+        "name": "Red Roses",
+        "price": 40
+    },
+    {
+        "name": "Yellow Roses",
+        "price": 40
+    },
+    {
+        "name": "White Roses",
+        "price": 40
+    },
+    {
+        "name": "Pink Roses",
+        "price": 80
+    },
+    {
+        "name": "Orange Roses",
+        "price": 80
+    },
+    {
+        "name": "Blue Roses",
+        "price": 1000
+    },
+    {
+        "name": "Purple Roses",
+        "price": 240
+    },
+    {
+        "name": "Black Roses",
+        "price": 240
+    },
+    {
+        "name": "Gold Roses",
+        "price": 1000
+    },
+    {
+        "name": "Red Tulips",
+        "price": 40
+    },
+    {
+        "name": "Yellow Tulips",
+        "price": 40
+    },
+    {
+        "name": "White Tulips",
+        "price": 40
+    },
+    {
+        "name": "Pink Tulips",
+        "price": 80
+    },
+    {
+        "name": "Orange Tulips",
+        "price": 40
+    },
+    {
+        "name": "Purple Tulips",
+        "price": 240
+    },
+    {
+        "name": "Black Tulips",
+        "price": 80
+    },
+    {
+        "name": "Red Windflowers",
+        "price": 40
+    },
+    {
+        "name": "White Windflowers",
+        "price": 40
+    },
+    {
+        "name": "Pink Windflowers",
+        "price": 80
+    },
+    {
+        "name": "Orange Windflowers",
+        "price": 80
+    },
+    {
+        "name": "Blue Windflowers",
+        "price": 80
+    },
+    {
+        "name": "Purple Windflowers",
+        "price": 240
+    }
+]

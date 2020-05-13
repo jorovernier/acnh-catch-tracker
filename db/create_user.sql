@@ -13,5 +13,17 @@ VALUES (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 UPDATE bugs
 SET user_id = bugs_id;
 
+INSERT INTO flowers (fl1, fl2, fl3, fl4, fl5, fl6, fl7, fl8, fl9, fl10, fl11, fl12, fl13, fl14, fl15, fl16, fl17, fl18, fl19, fl20, fl21, fl22, fl23, fl24, fl25, fl26, fl27, fl28, fl29, fl30, fl31, fl32, fl33, fl34, fl35, fl36, fl37, fl38, fl39, fl40, fl41, fl42, fl43, fl44, fl45, fl46, fl47, fl48, fl49, fl50, fl51, fl52, fl53)
+VALUES (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+
+UPDATE flowers
+SET user_id = flowers_id;
+
+INSERT INTO fossils (fo1, fo2, fo3, fo4, fo5, fo6, fo7, fo8, fo9, fo10, fo11, fo12, fo13, fo14, fo15, fo16, fo17, fo18, fo19, fo20, fo21, fo22, fo23, fo24, fo25, fo26, fo27, fo28, fo29, fo30, fo31, fo32, fo33, fo34, fo35, fo36, fo37, fo38, fo39, fo40, fo41, fo42, fo43, fo44, fo45, fo46, fo47, fo48, fo49, fo50, fo51, fo52, fo53, fo54, fo55, fo56, fo57, fo58, fo59, fo60, fo61, fo62, fo63, fo64, fo65, fo66, fo67, fo68, fo69, fo70, fo71, fo72, fo73)
+VALUES (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+
+UPDATE fossils
+SET user_id = fossils_id;
+
 SELECT username FROM users
 WHERE username = $1;

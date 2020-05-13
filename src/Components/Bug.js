@@ -5,11 +5,9 @@ export default class Bug extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            caught: false,
-            // donated: false
+            caught: false
         }
         this.wasCaught = this.wasCaught.bind(this);
-        // this.wasDonated = this.wasDonated.bind(this);
     }
     
     wasCaught(){
@@ -24,16 +22,9 @@ export default class Bug extends React.Component {
         })
     }
 
-    // wasDonated(){
-    //     this.setState({
-    //         donated: !this.state.donated
-    //     })
-    // }
-
     render(){
         const {bug, dbbug} = this.props;
         let colorC = (dbbug ? 'red' : 'white');
-        // let colorD = (this.state.donated ? 'red' : 'white');
         return(
             <div className='bug'>
                 <span className='bug-name'>{bug.name}</span>
@@ -52,12 +43,6 @@ export default class Bug extends React.Component {
                             <p style={{color: colorC}}>X</p>
                         </button>
                     </span>
-                    {/* <span className='fbutt'>
-                        <p>Donated:</p>
-                        <button onClick={() => this.wasDonated()}>
-                            <p style={{color: colorD}}>X</p>
-                        </button>
-                    </span> */}
                 </div>
             </div>
         )

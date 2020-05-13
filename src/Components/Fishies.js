@@ -1,9 +1,9 @@
 import React from 'react';
 import axios from 'axios';
-import '../SASS/Fishes.scss';
+import '../SASS/Fishies.scss';
 import Fish from './Fish';
 
-export default class Fishes extends React.Component {
+export default class Fishies extends React.Component {
     constructor(props){
     super(props);
     this.state = {

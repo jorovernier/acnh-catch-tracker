@@ -1,9 +1,11 @@
 import React from 'react';
 import './SASS/App.scss';
-import logo from './Images/acnh-tracker-logo.png';
 import './Fonts/FinkHeavy.ttf';
-import Fishes from './Components/Fishes';
+import logo from './Images/acnh-tracker-logo.png';
+import Fishies from './Components/Fishies';
 import Bugs from './Components/Bugs';
+import Flowers from './Components/Flowers';
+import Fossils from './Components/Fossils';
 import Login from './Components/Login';
 import Logout from './Components/Logout';
 import {connect} from 'react-redux';
@@ -24,6 +26,8 @@ class App extends React.Component {
               <div className='navlinks'>
                 <NavLink to='/fish' >Fish</NavLink>
                 <NavLink to='/bugs' >Bugs</NavLink>
+                <NavLink to='/flowers' >Flowers</NavLink>
+                <NavLink to='/fossils' >Fossils</NavLink>
               </div>
               <Logout/>
             </div>
@@ -31,8 +35,10 @@ class App extends React.Component {
         }
           <Switch>
             <Route exact path='/' render={(props) => (this.props.user ? <Redirect to='/fish' /> : <Login {...props}/>)} />
-            {this.props.user && <Route path='/fish' component={Fishes} />}
+            {this.props.user && <Route path='/fish' component={Fishies} />}
             {this.props.user && <Route path='/bugs' component={Bugs} />}
+            {this.props.user && <Route path='/flowers' component={Flowers} />}
+            {this.props.user && <Route path='/fossils' component={Fossils} />}
             <Route path='*' render={() => {return <Redirect to='/' />}} />
           </Switch>
           <footer>
