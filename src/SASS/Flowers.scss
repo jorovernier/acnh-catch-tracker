@@ -14,22 +14,20 @@
         border-radius: 50px;
         border: solid 5px black;
         .flower-name {
-            // background-color: red;
-            min-width: 150px;
+            width: 150px;
             display: flex;
             align-items: center;
             justify-content: center;
         }
         .flower-price {
-            // background-color: purple;
-            min-width: 150px;
+            width: 150px;
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: space-around;
+            justify-content: center;
         }
         .flower-buttons {
-            // background-color: blue;
-            min-width: 200px;
+            width: 200px;
             display: flex;
             align-items: center;
             justify-content: space-around;
@@ -54,6 +52,30 @@
                         height: 25px;
                         width: 25px;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .mapped-flowers {
+        .flower {
+            .flower-name {
+                width: 90px;
+                text-align: center;
+            }
+            .flower-price {
+                width: 50px;
+            }
+            .flower-buttons {
+                width: 150px;
+                p {
+                    width: 60px;
+                }
+                .flbutt {
+                    width: 60px;
+                    text-align: center;
                 }
             }
         }

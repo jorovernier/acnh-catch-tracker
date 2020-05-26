@@ -21,8 +21,14 @@ class Login extends React.Component {
 
     async register(){
         const {username, password} = this.state;
-        const registeredUser = await axios.post('/auth/register', {username, password});
-        this.props.setUser(registeredUser.data);
+        try {
+            const registeredUser = await axios.post('/auth/register', {username, password});
+            this.props.setUser(registeredUser.data);
+        } catch (error) {
+            this.setState({
+                failed: true
+            })
+        }
     }
 
     async login(){
@@ -34,7 +40,6 @@ class Login extends React.Component {
             this.setState({
                 failed: true
             })
-            console.log(error)
         }
     }
 
@@ -72,11 +77,12 @@ class Login extends React.Component {
                                         password: e.target.value
                                     })} />
                                 </div>
-                                {this.state.failed && <div>Incorrect username or password.</div>}
+                                {this.state.failed && !this.state.register && <div>Incorrect username or password.</div>}
+                                {this.state.failed && this.state.register && <div>User already exists.</div>}
                                 <div className='login-buttons'>
                                     <button className='submit'>Submit</button>
-                                    {!register && <button className='switcher' onClick={() => {this.setState({register: true})}}>Switch to Register</button>}
-                                    {register && <button className='switcher' onClick={() => {this.setState({register: false})}}>Switch to Login</button>}
+                                    {!register && <button className='switcher' onClick={() => {this.setState({register: true, failed: false})}}>Switch to Register</button>}
+                                    {register && <button className='switcher' onClick={() => {this.setState({register: false, failed: false})}}>Switch to Login</button>}
                                 </div>
                             </div>
                         </form>

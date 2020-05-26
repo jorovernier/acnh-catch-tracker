@@ -25,7 +25,7 @@
             align-items: center;
             justify-content: center;
             p {
-                font-size: 50px;
+                font-size: 40px;
             }
         }
         .login-register {
@@ -36,7 +36,7 @@
                 width: 500px;
             }
             form {
-                border-radius: 50px;
+                // border-radius: 50px;
                 height: 300px;
                 width: 500px;
                 display: flex;
@@ -80,6 +80,147 @@
                         }
                         .switcher {
                             @extend %button-setting;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .login-body {
+        .bubble {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 90%;
+            .welcome {
+                height: 300px;
+                justify-content: space-around;
+                p {
+                    width: 600px;
+                    font-size: 48px;
+                    text-align: center;
+                }
+                img {
+                    width: 300px;
+                }
+            }
+            .login-register {
+                height: 300px;
+                justify-content: space-evenly;
+                .potential {
+                    width: 300px;
+                    img {
+                        width: 300px;
+                    }
+                }
+                form {
+                    height: 300px;
+                    width: 300px;
+                    .inputs {
+                        border-radius: 50px;
+                        width: 300px;
+                        .username-i {
+                            align-items: center;
+                        }
+                        .password-i {
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .login-body {
+        .bubble {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 90%;
+            .welcome {
+                height: 300px;
+                justify-content: space-around;
+                p {
+                    font-size: 26px;
+                    text-align: center;
+                }
+                img {
+                    width: 200px;
+                }
+            }
+            .login-register {
+                height: 400px;
+                flex-direction: column;
+                justify-content: space-evenly;
+                .potential {
+                    width: 200px;
+                    img {
+                        width: 200px;
+                    }
+                }
+                form {
+                    height: 200px;
+                    width: 200px;
+                    .inputs {
+                        border-radius: 50px;
+                        width: 200px;
+                        .username-i {
+                            align-items: center;
+                        }
+                        .password-i {
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .login-body {
+        .bubble {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 90%;
+            .welcome {
+                height: 300px;
+                justify-content: space-around;
+                p {
+                    font-size: 26px;
+                    text-align: center;
+                }
+                img {
+                    width: 200px;
+                }
+            }
+            .login-register {
+                height: 400px;
+                flex-direction: column;
+                justify-content: space-evenly;
+                .potential {
+                    width: 200px;
+                    img {
+                        width: 200px;
+                    }
+                }
+                form {
+                    height: 200px;
+                    width: 200px;
+                    .inputs {
+                        border-radius: 50px;
+                        width: 200px;
+                        .username-i {
+                            align-items: center;
+                        }
+                        .password-i {
+                            align-items: center;
                         }
                     }
                 }

@@ -48,5 +48,32 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 420px) {
+    .main {
+        .llo {
+            border-bottom: 3px solid black;
+            height: 100px;
+            width: 100vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: $green;
+            .logo {
+                height: 100px;
+                margin: 0px 10px;
+            }
+            .out-links {
+                width: 180px;
+                justify-content: space-evenly;
+                .navlinks {
+                    font-size: 12px;
+                    text-decoration: none;
+                }
+            }
+        }
     }
 }

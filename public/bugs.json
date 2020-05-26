@@ -3092,7 +3092,7 @@
     {
         "id": 67,
         "name": "Walking Leaf",
-        "location": "Near trees, disguised as furniture leaf",
+        "location": "Near trees, disguised as leaf",
         "price": 600,
         "times": {
             "array": [
