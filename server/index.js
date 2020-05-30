@@ -10,6 +10,8 @@ const session = require('express-session');
 const {register, login, logout, userSession} = require('./Controllers/authenticator');
 const {getFish, getBugs, getFlowers, getFossils, updateFish, updateBugs, updateFlowers, updateFossils} = require('./Controllers/items');
 
+app.use( express.static( `${__dirname}/../build` ) );
+
 app.use(session({
     secret: SESSION_SECRET,
     resave: false,
@@ -41,6 +43,11 @@ app.put('/api/update_fish', updateFish);
 app.put('/api/update_bugs', updateBugs);
 app.put('/api/update_flowers', updateFlowers);
 app.put('/api/update_fossils', updateFossils);
+
+const path = require('path')
+app.get('*', (req, res)=>{
+  res.sendFile(path.join(__dirname, '../build/index.html'));
+})
 
 let port = SERVER_PORT || 4000;
 app.listen(port, () => console.log(`Listening on port ${port}.`));
