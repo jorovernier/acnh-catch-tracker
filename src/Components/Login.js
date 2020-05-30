@@ -13,7 +13,8 @@ class Login extends React.Component {
             username: '',
             password: '',
             register: false,
-            failed: false
+            failed: false,
+            created: false
         }
         this.register = this.register.bind(this);
         this.login = this.login.bind(this);
@@ -21,13 +22,19 @@ class Login extends React.Component {
 
     async register(){
         const {username, password} = this.state;
-        try {
-            const registeredUser = await axios.post('/auth/register', {username, password});
-            this.props.setUser(registeredUser.data);
-        } catch (error) {
+        if(username.length && password.length) {
             this.setState({
-                failed: true
+                created: true
             })
+            try {
+                await axios.post('/auth/register', {username, password});
+            } catch (error) {
+                this.setState({
+                    failed: true
+                })
+            }
+        } else {
+            window.alert('Please input a username and password.')
         }
     }
 
@@ -79,6 +86,7 @@ class Login extends React.Component {
                                 </div>
                                 {this.state.failed && !this.state.register && <div>Incorrect username or password.</div>}
                                 {this.state.failed && this.state.register && <div>User already exists.</div>}
+                                {this.state.created && this.state.register && !this.state.failed && <div>Account created! Please log in.</div>}
                                 <div className='login-buttons'>
                                     <button className='submit'>Submit</button>
                                     {!register && <button className='switcher' onClick={() => {this.setState({register: true, failed: false})}}>Switch to Register</button>}
