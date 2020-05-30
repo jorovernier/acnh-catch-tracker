@@ -24,10 +24,10 @@ class App extends React.Component {
             <img className='logo' src={logo} alt='catch tracker'/>
             <div className='out-links'>
               <div className='navlinks'>
-                <NavLink to='/fish' >Fish</NavLink>
-                <NavLink to='/bugs' >Bugs</NavLink>
-                <NavLink to='/flowers' >Flowers</NavLink>
-                <NavLink to='/fossils' >Fossils</NavLink>
+                <NavLink className='link' to='/fish' >Fish</NavLink>
+                <NavLink className='link' to='/bugs' >Bugs</NavLink>
+                <NavLink className='link' to='/flowers' >Flowers</NavLink>
+                <NavLink className='link' to='/fossils' >Fossils</NavLink>
               </div>
               <Logout/>
             </div>

@@ -36,7 +36,6 @@
                 width: 500px;
             }
             form {
-                // border-radius: 50px;
                 height: 300px;
                 width: 500px;
                 display: flex;
@@ -88,7 +87,22 @@
     }
 }
 
-@media (max-width: 1100px) {
+@media (width: 1366px) {
+    .login-body {
+        .bubble {
+            .login-register {
+                .potential {
+                    width: 450px;
+                    img {
+                        width: 450px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (height: 1366px) {
     .login-body {
         .bubble {
             display: flex;
@@ -96,7 +110,70 @@
             justify-content: space-around;
             height: 90%;
             .welcome {
-                height: 300px;
+                height: 400px;
+                justify-content: space-around;
+                p {
+                    width: 600px;
+                    font-size: 48px;
+                    text-align: center;
+                }
+                img {
+                    width: 400px;
+                }
+            }
+            .login-register {
+                height: 700px;
+                flex-direction: column;
+                justify-content: space-evenly;
+                .potential {
+                    width: 500px;
+                    img {
+                        width: 500px;
+                    }
+                }
+                form {
+                    height: 300px;
+                    width: 500px;
+                    .inputs {
+                        height: 300px;
+                        width: 500px;
+                        .username-i {
+                            width: 480px;
+                            text-align: center;
+                            label {
+                                font-size: 50px;
+                            }
+                        }
+                        .password-i {
+                            width: 480px;
+                            text-align: center;
+                            label {
+                                font-size: 50px;
+                            }
+                        }
+                    }
+                    .login-buttons {
+                        .submit {
+                            font-size: 24px;
+                        }
+                        .switcher {
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (height: 768px){
+    .login-body {
+        .bubble {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 90%;
+            .welcome {
                 justify-content: space-around;
                 p {
                     width: 600px;
@@ -108,7 +185,6 @@
                 }
             }
             .login-register {
-                height: 300px;
                 justify-content: space-evenly;
                 .potential {
                     width: 300px;
@@ -123,10 +199,12 @@
                         border-radius: 50px;
                         width: 300px;
                         .username-i {
-                            align-items: center;
+                            width: 280px;
+                            text-align: center;
                         }
                         .password-i {
-                            align-items: center;
+                            width: 280px;
+                            text-align: center;
                         }
                     }
                 }
@@ -143,37 +221,213 @@
             justify-content: space-around;
             height: 90%;
             .welcome {
-                height: 300px;
+                height: 350px;
                 justify-content: space-around;
                 p {
-                    font-size: 26px;
+                    width: 400px;
+                    font-size: 42px;
                     text-align: center;
                 }
                 img {
-                    width: 200px;
+                    width: 300px;
                 }
             }
             .login-register {
-                height: 400px;
+                height: 500px;
                 flex-direction: column;
                 justify-content: space-evenly;
                 .potential {
-                    width: 200px;
+                    width: 400px;
                     img {
-                        width: 200px;
+                        width: 400px;
                     }
                 }
                 form {
                     height: 200px;
-                    width: 200px;
+                    width: 300px;
                     .inputs {
                         border-radius: 50px;
-                        width: 200px;
+                        width: 300px;
                         .username-i {
-                            align-items: center;
+                            width: 280px;
+                            text-align: center;
                         }
                         .password-i {
-                            align-items: center;
+                            width: 280px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (width: 812px), (width: 823px) {
+    .login-body {
+        .bubble {
+            .welcome {
+                height: 100px;
+                flex-direction: row;
+                p {
+                    width: 300px;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                img {
+                    width: 150px;
+                }
+            }
+            .login-register {
+                height: 180px;
+                justify-content: space-around;
+                .potential {
+                    width: 250px;
+                    img {
+                        width: 250px;
+                    }
+                }
+                form {
+                    height: 150px;
+                    width: 200px;
+                    .inputs {
+                        height: 150px;
+                        width: 200px;
+                        .username-i {
+                            width: 180px;
+                            text-align: center;
+                            label {
+                                font-size: 20px;
+                            }
+                        }
+                        .password-i {
+                            width: 180px;
+                            text-align: center;
+                            label {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (width: 667px), (width: 731px), (width: 736px){
+    .login-body {
+        .bubble {
+            .welcome {
+                height: 130px;
+                flex-direction: row;
+                p {
+                    width: 200px;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                img {
+                    width: 180px;
+                }
+            }
+            .login-register {
+                height: 200px;
+                flex-direction: row;
+                justify-content: space-around;
+                .potential {
+                    width: 250px;
+                    img {
+                        width: 250px;
+                    }
+                }
+                form {
+                    height: 100px;
+                    width: 150px;
+                    .inputs {
+                        border-radius: 0px;
+                        height: 100px;
+                        width: 150px;
+                        .username-i {
+                            width: 130px;
+                            text-align: center;
+                            label {
+                                font-size: 10px;
+                            }
+                        }
+                        .password-i {
+                            width: 130px;
+                            text-align: center;
+                            label {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                    .login-buttons {
+                        .submit {
+                            font-size: 8px;
+                        }
+                        .switcher {
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (width: 568px), (width: 640px){
+    .login-body {
+        .bubble {
+            .welcome {
+                height: 100px;
+                flex-direction: row;
+                p {
+                    width: 200px;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                img {
+                    width: 150px;
+                }
+            }
+            .login-register {
+                height: 150px;
+                flex-direction: row;
+                justify-content: space-around;
+                .potential {
+                    width: 150px;
+                    img {
+                        width: 150px;
+                    }
+                }
+                form {
+                    height: 100px;
+                    width: 150px;
+                    .inputs {
+                        border-radius: 0px;
+                        height: 100px;
+                        width: 150px;
+                        .username-i {
+                            width: 130px;
+                            text-align: center;
+                            label {
+                                font-size: 10px;
+                            }
+                        }
+                        .password-i {
+                            width: 130px;
+                            text-align: center;
+                            label {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                    .login-buttons {
+                        .submit {
+                            font-size: 8px;
+                        }
+                        .switcher {
+                            font-size: 8px;
                         }
                     }
                 }
@@ -193,6 +447,7 @@
                 height: 300px;
                 justify-content: space-around;
                 p {
+                    width: 200px;
                     font-size: 26px;
                     text-align: center;
                 }
@@ -223,6 +478,27 @@
                             align-items: center;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+@media (width: 320px) {
+    .login-body {
+        height: 100vh;
+        width: 100vw;
+        .bubble {
+            .welcome {
+                p {
+                    width: 150px;
+                    font-size: 20px;
+                }
+            }
+            .login-register {
+                form {
+                    justify-self: flex-end;
+                    height: 160px;
                 }
             }
         }
