@@ -1,6 +1,5 @@
 require('dotenv').config();
 const {CONNECTION_STRING, SESSION_SECRET, SERVER_PORT} = process.env;
-// process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 const express = require('express');
 const app = express();
 app.use(express.json());
