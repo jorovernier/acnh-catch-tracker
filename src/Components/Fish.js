@@ -27,10 +27,31 @@ export default class Fish extends React.Component {
         let colorC = (dbfish ? 'red' : 'white');
         return(
             <div className='fish'>
-                <span className='fish-name'>{fish.name}</span>
-                <div className='fish-loc'>
-                    <p>Location:</p>
-                    <span>{fish.location}</span>
+                <div className='img-name'>
+                    <div className='fish-image'>
+                        <img src={fish.image}/>
+                    </div>
+                    <span className='fish-name'>{fish.name}</span>
+                </div>
+                <div className='loc-size'>
+                    <div className='fish-loc'>
+                        <p>Location:</p>
+                        <span>{fish.location}</span>
+                    </div>
+                    <div className='fish-size'>
+                        <p>Size:</p>
+                        <span>{fish.shadow_size}</span>
+                    </div>
+                </div>
+                <div className='m-t'>
+                    <div className='fish-months'>
+                        <p>Months:</p>
+                        <span>{fish.months.northern.text}</span>
+                    </div>
+                    <div className='fish-time'>
+                        <p>Time:</p>
+                        <span>{fish.times.text}</span>
+                    </div>
                 </div>
                 <div className='fish-price'>
                     <p>Price:</p>
@@ -38,7 +59,7 @@ export default class Fish extends React.Component {
                 </div>
                 <div className='fish-buttons'>
                     <span className='fbutt'>
-                        <p>Caught:</p>
+                        <p className='caught'>Caught:</p>
                         <button onClick={() => this.wasCaught()}>
                             <p style={{color: colorC}}>X</p>
                         </button>

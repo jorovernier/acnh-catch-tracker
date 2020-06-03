@@ -24,6 +24,9 @@ export default class Flower extends React.Component {
         const {flower, dbflower} = this.props;
         return(
             <div className='flower'>
+                <div className='flower-image'>
+                    <img src={flower.image}/>
+                </div>
                 <span className='flower-name'>{flower.name}</span>
                 <div className='flower-price'>
                     <p>Price:</p>

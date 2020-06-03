@@ -24,10 +24,10 @@ class App extends React.Component {
             <img className='logo' src={logo} alt='catch tracker'/>
             <div className='out-links'>
               <div className='navlinks'>
-                <NavLink className='link' to='/fish' >Fish</NavLink>
-                <NavLink className='link' to='/bugs' >Bugs</NavLink>
-                <NavLink className='link' to='/flowers' >Flowers</NavLink>
-                <NavLink className='link' to='/fossils' >Fossils</NavLink>
+                <NavLink className='link' to='/fish' ><img src='https://dodo.ac/np/images/2/22/Fishing_Rod_NH_Inv_Icon.png' alt='Fish'/></NavLink>
+                <NavLink className='link' to='/bugs' ><img src='https://dodo.ac/np/images/5/5b/Net_NH_Inv_Icon.png' alt='Bugs'/></NavLink>
+                <NavLink className='link' to='/flowers' ><img src='https://dodo.ac/np/images/b/bb/Lily-of-the-Valley_Plant_NH_Inv_Icon.png' alt='Flowers'/></NavLink>
+                <NavLink className='link' to='/fossils' ><img src='https://dodo.ac/np/images/f/fc/Identified_Fossil_NH_Inv_Icon.png' alt='Fossils'/></NavLink>
               </div>
               <Logout/>
             </div>

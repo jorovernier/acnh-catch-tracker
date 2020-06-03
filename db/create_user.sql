@@ -13,8 +13,8 @@ VALUES (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 UPDATE bugs
 SET user_id = bugs_id;
 
-INSERT INTO flowers (fl1, fl2, fl3, fl4, fl5, fl6, fl7, fl8, fl9, fl10, fl11, fl12, fl13, fl14, fl15, fl16, fl17, fl18, fl19, fl20, fl21, fl22, fl23, fl24, fl25, fl26, fl27, fl28, fl29, fl30, fl31, fl32, fl33, fl34, fl35, fl36, fl37, fl38, fl39, fl40, fl41, fl42, fl43, fl44, fl45, fl46, fl47, fl48, fl49, fl50, fl51, fl52, fl53)
-VALUES (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO flowers (fl1, fl2, fl3, fl4, fl5, fl6, fl7, fl8, fl9, fl10, fl11, fl12, fl13, fl14, fl15, fl16, fl17, fl18, fl19, fl20, fl21, fl22, fl23, fl24, fl25, fl26, fl27, fl28, fl29, fl30, fl31, fl32, fl33, fl34, fl35, fl36, fl37, fl38, fl39, fl40, fl41, fl42, fl43, fl44, fl45, fl46, fl47, fl48, fl49, fl50, fl51, fl52, fl53, fl54)
+VALUES (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 
 UPDATE flowers
 SET user_id = flowers_id;

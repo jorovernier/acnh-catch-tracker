@@ -27,10 +27,25 @@ export default class Bug extends React.Component {
         let colorC = (dbbug ? 'red' : 'white');
         return(
             <div className='bug'>
-                <span className='bug-name'>{bug.name}</span>
+                <div className='img-name'>
+                    <div className='bug-image'>
+                        <img src={bug.image} />
+                    </div>
+                    <span className='bug-name'>{bug.name}</span>
+                </div>
                 <div className='bug-loc'>
                     <p>Location:</p>
                     <span>{bug.location}</span>
+                </div>
+                <div className='m-t'>
+                    <div className='bug-months'>
+                        <p>Months:</p>
+                        <span>{bug.months.northern.text}</span>
+                    </div>
+                    <div className='bug-time'>
+                        <p>Time:</p>
+                        <span>{bug.times.text}</span>
+                    </div>
                 </div>
                 <div className='bug-price'>
                     <p>Price:</p>
@@ -38,7 +53,7 @@ export default class Bug extends React.Component {
                 </div>
                 <div className='bug-buttons'>
                     <span className='bbutt'>
-                        <p>Caught:</p>
+                        <p className='caught'>Caught:</p>
                         <button onClick={() => this.wasCaught()}>
                             <p style={{color: colorC}}>X</p>
                         </button>

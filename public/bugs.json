@@ -2,6 +2,7 @@
     {
         "id": 1,
         "name": "Common Butterfly",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3a/NH-Icon-commonbutterfly.png/revision/latest?cb=20200401005428",
         "location": "Flying",
         "price": 160,
         "times": {
@@ -38,7 +39,7 @@
                     11,
                     12
                 ],
-                "text": "September - June"
+                "text": "Sep - June"
             },
             "southern": {
                 "array": [
@@ -53,13 +54,14 @@
                     11,
                     12
                 ],
-                "text": "March - December"
+                "text": "March - Dec"
             }
         }
     },
     {
         "id": 2,
         "name": "Yellow Butterfly",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fa/NH-Icon-yellowbutterfly.png/revision/latest?cb=20200401005428",
         "location": "Flying",
         "price": 160,
         "times": {
@@ -92,7 +94,7 @@
                     9,
                     10
                 ],
-                "text": "March - June, September - October"
+                "text": "March - June, Sep - Oct"
             },
             "southern": {
                 "array": [
@@ -103,13 +105,14 @@
                     11,
                     12
                 ],
-                "text": "March - April, September - December"
+                "text": "March - April, Sep - Dec"
             }
         }
     },
     {
         "id": 3,
         "name": "Tiger Butterfly",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/65/NH-Icon-tigerbutterfly.png/revision/latest?cb=20200401005429",
         "location": "Flying",
         "price": 240,
         "times": {
@@ -143,7 +146,7 @@
                     8,
                     9
                 ],
-                "text": "March - September"
+                "text": "March - Sep"
             },
             "southern": {
                 "array": [
@@ -155,13 +158,14 @@
                     11,
                     12
                 ],
-                "text": "September - March"
+                "text": "Sep - March"
             }
         }
     },
     {
         "id": 4,
         "name": "Peacock Butterfly",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Icon-peacockbutterfly.png/revision/latest?cb=20200401005429",
         "location": "Flying",
         "price": 2500,
         "times": {
@@ -201,13 +205,14 @@
                     11,
                     12
                 ],
-                "text": "September - December"
+                "text": "Sep - Dec"
             }
         }
     },
     {
         "id": 5,
         "name": "Common Bluebottle",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5e/NH-Icon-commonbluebottle.png/revision/latest?cb=20200401005428",
         "location": "Flying",
         "price": 300,
         "times": {
@@ -239,7 +244,7 @@
                     7,
                     8
                 ],
-                "text": "April - August"
+                "text": "April - Aug"
             },
             "southern": {
                 "array": [
@@ -249,13 +254,14 @@
                     11,
                     12
                 ],
-                "text": "October - February"
+                "text": "Oct - Feb"
             }
         }
     },
     {
         "id": 6,
         "name": "Paper Kite Butterfly",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/NH-Icon-paperkitebutterfly.png/revision/latest?cb=20200401005429",
         "location": "Flying",
         "price": 1000,
         "times": {
@@ -314,6 +320,7 @@
     {
         "id": 7,
         "name": "Great Purple Emperor",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/27/NH-Icon-greatpurpleemperor.png/revision/latest?cb=20200401005428",
         "location": "Flying",
         "price": 3000,
         "times": {
@@ -344,7 +351,7 @@
                     7,
                     8
                 ],
-                "text": "May - August"
+                "text": "May - Aug"
             },
             "southern": {
                 "array": [
@@ -353,13 +360,14 @@
                     11,
                     12
                 ],
-                "text": "November - February"
+                "text": "Nov - Feb"
             }
         }
     },
     {
         "id": 8,
         "name": "Monach Butterfly",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/99/NH-Icon-monarchbutterfly.png/revision/latest?cb=20200401005429",
         "location": "Flying",
         "price": 140,
         "times": {
@@ -387,7 +395,7 @@
                     10,
                     11
                 ],
-                "text": "September - November"
+                "text": "Sep - Nov"
             },
             "southern": {
                 "array": [
@@ -402,6 +410,7 @@
     {
         "id": 9,
         "name": "Emperor Butterfly",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5e/NH-Icon-emperorbutterfly.png/revision/latest?cb=20200401005428",
         "location": "Flying",
         "price": 4000,
         "times": {
@@ -436,7 +445,7 @@
                     9,
                     12
                 ],
-                "text": "June - September, December - March"
+                "text": "June - Sep, Dec - March"
             },
             "southern": {
                 "array": [
@@ -449,13 +458,14 @@
                     9,
                     12
                 ],
-                "text": "June - September, December - March"
+                "text": "June - Sep, Dec - March"
             }
         }
     },
     {
         "id": 10,
         "name": "Agrias Butterfly",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Icon-agriasbutterfly.png/revision/latest?cb=20200401005428",
         "location": "Flying",
         "price": 3000,
         "times": {
@@ -482,7 +492,7 @@
                     8,
                     9
                 ],
-                "text": "April - September"
+                "text": "April - Sep"
             },
             "southern": {
                 "array": [
@@ -492,13 +502,14 @@
                     11,
                     12
                 ],
-                "text": "November - March"
+                "text": "Nov - March"
             }
         }
     },
     {
         "id": 11,
-        "name": "Raja Brooke's Birdwing",
+        "name": "Rajah Brooke's Birdwing",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e2/NH-Icon-rajahbrookesbirdwing.png/revision/latest?cb=20200401005428",
         "location": "Flying",
         "price": 2500,
         "times": {
@@ -528,7 +539,7 @@
                     9,
                     12
                 ],
-                "text": "April-September, December-February"
+                "text": "April-Sep, Dec-Feb"
             },
             "southern": {
                 "array": [
@@ -541,13 +552,14 @@
                     11,
                     12
                 ],
-                "text": "November-March, June-August"
+                "text": "Nov-March, June-Aug"
             }
         }
     },
     {
         "id": 12,
         "name": "Queen Alexandra's Birdwing",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b8/NH-Icon-queenalexandrasbirdwing.png/revision/latest?cb=20200401005429",
         "location": "Flying",
         "price": 4000,
         "times": {
@@ -572,7 +584,7 @@
                     8,
                     9
                 ],
-                "text": "May - September"
+                "text": "May - Sep"
             },
             "southern": {
                 "array": [
@@ -582,13 +594,14 @@
                     11,
                     12
                 ],
-                "text": "November - March"
+                "text": "Nov - March"
             }
         }
     },
     {
         "id": 13,
         "name": "Moth",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/NH-Icon-moth.png/revision/latest?cb=20200401005428",
         "location": "Flying by light",
         "price": 130,
         "times": {
@@ -645,6 +658,7 @@
     {
         "id": 14,
         "name": "Atlas Moth",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6a/NH-Icon-atlasmoth.png/revision/latest?cb=20200401005428",
         "location": "On trees",
         "price": 3000,
         "times": {
@@ -671,7 +685,7 @@
                     8,
                     9
                 ],
-                "text": "April - September"
+                "text": "April - Sep"
             },
             "southern": {
                 "array": [
@@ -682,13 +696,14 @@
                     11,
                     12
                 ],
-                "text": "October - March"
+                "text": "Oct - March"
             }
         }
     },
     {
         "id": 15,
         "name": "Madagascan Sunset Moth",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7d/NH-Icon-madagascansunsetmoth.png/revision/latest?cb=20200401005429",
         "location": "Flying",
         "price": 2500,
         "times": {
@@ -714,7 +729,7 @@
                     8,
                     9
                 ],
-                "text": "April - September"
+                "text": "April - Sep"
             },
             "southern": {
                 "array": [
@@ -725,13 +740,14 @@
                     11,
                     12
                 ],
-                "text": "October - March"
+                "text": "Oct - March"
             }
         }
     },
     {
         "id": 16,
         "name": "Long Locust",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ef/NH-Icon-longlocust.png/revision/latest?cb=20200401005429",
         "location": "On ground",
         "price": 200,
         "times": {
@@ -762,7 +778,7 @@
                     10,
                     11
                 ],
-                "text": "April - November"
+                "text": "April - Nov"
             },
             "southern": {
                 "array": [
@@ -774,13 +790,14 @@
                     11,
                     12
                 ],
-                "text": "November - May"
+                "text": "Nov - May"
             }
         }
     },
     {
         "id": 17,
         "name": "Migratory Locust",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e4/NH-Icon-migratorylocust.png/revision/latest?cb=20200401005429",
         "location": "On ground",
         "price": 600,
         "times": {
@@ -807,7 +824,7 @@
                     10,
                     11
                 ],
-                "text": "August - November"
+                "text": "Aug - Nov"
             },
             "southern": {
                 "array": [
@@ -816,13 +833,14 @@
                     4,
                     5
                 ],
-                "text": "February - May"
+                "text": "Feb - May"
             }
         }
     },
     {
         "id": 18,
         "name": "Rice Grasshopper",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d3/NH-Icon-ricegrasshopper.png/revision/latest?cb=20200401005428",
         "location": "On ground",
         "price": 160,
         "times": {
@@ -849,7 +867,7 @@
                     10,
                     11
                 ],
-                "text": "August - November"
+                "text": "Aug - Nov"
             },
             "southern": {
                 "array": [
@@ -858,13 +876,14 @@
                     4,
                     5
                 ],
-                "text": "February - May"
+                "text": "Feb - May"
             }
         }
     },
     {
         "id": 19,
         "name": "Grasshopper",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/56/NH-Icon-grasshopper.png/revision/latest?cb=20200401005428",
         "location": "On ground",
         "price": 160,
         "times": {
@@ -888,7 +907,7 @@
                     8,
                     9
                 ],
-                "text": "July - September"
+                "text": "July - Sep"
             },
             "southern": {
                 "array": [
@@ -896,14 +915,15 @@
                     2,
                     3
                 ],
-                "text": "January - March"
+                "text": "Jan - March"
             }
         }
     },
     {
         "id": 20,
         "name": "Cricket",
-        "location": "Dig at cricket noise",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7a/NH-Icon-cricket.png/revision/latest?cb=20200401005428",
+        "location": "Underground",
         "price": 130,
         "times": {
             "array": [
@@ -932,7 +952,7 @@
                     10,
                     11
                 ],
-                "text": "September - November"
+                "text": "Sep - Nov"
             },
             "southern": {
                 "array": [
@@ -947,6 +967,7 @@
     {
         "id": 21,
         "name": "Bell Cricket",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/99/NH-Icon-bellcricket.png/revision/latest?cb=20200401005428",
         "location": "On ground",
         "price": 430,
         "times": {
@@ -975,7 +996,7 @@
                     9,
                     10
                 ],
-                "text": "September - October"
+                "text": "Sep - Oct"
             },
             "southern": {
                 "array": [
@@ -989,6 +1010,7 @@
     {
         "id": 22,
         "name": "Mantis",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/00/NH-Icon-mantis.png/revision/latest?cb=20200401005429",
         "location": "On flowers",
         "price": 430,
         "times": {
@@ -1017,7 +1039,7 @@
                     9,
                     10
                 ],
-                "text": "March - November"
+                "text": "March - Nov"
             },
             "southern": {
                 "array": [
@@ -1031,13 +1053,14 @@
                     11,
                     12
                 ],
-                "text": "September - May"
+                "text": "Sep - May"
             }
         }
     },
     {
         "id": 23,
         "name": "Orchid Mantis",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9e/NH-Icon-orchidmantis.png/revision/latest?cb=20200401005428",
         "location": "On white flowers",
         "price": 2400,
         "times": {
@@ -1066,7 +1089,7 @@
                     9,
                     10
                 ],
-                "text": "March - November"
+                "text": "March - Nov"
             },
             "southern": {
                 "array": [
@@ -1080,13 +1103,14 @@
                     11,
                     12
                 ],
-                "text": "September - May"
+                "text": "Sep - May"
             }
         }
     },
     {
         "id": 24,
         "name": "Honeybee",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/26/NH-Icon-honeybee.png/revision/latest?cb=20200401005428",
         "location": "Flying",
         "price": 200,
         "times": {
@@ -1129,7 +1153,8 @@
     {
         "id": 25,
         "name": "Wasp",
-        "location": "Falls from shaking trees",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9e/NH-Icon-wasp.png/revision/latest?cb=20200401005428",
+        "location": "Shaking trees",
         "price": 2500,
         "times": {
             "array": [
@@ -1200,6 +1225,7 @@
     {
         "id": 26,
         "name": "Brown Cicada",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ab/NH-Icon-browncicada.png/revision/latest?cb=20200401005428",
         "location": "On trees",
         "price": 250,
         "times": {
@@ -1222,20 +1248,21 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
                     1,
                     2
                 ],
-                "text": "January - February"
+                "text": "Jan - Feb"
             }
         }
     },
     {
         "id": 27,
         "name": "Robust Cicada",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2f/NH-Icon-robustcicada.png/revision/latest?cb=20200401005429",
         "location": "On trees",
         "price": 300,
         "times": {
@@ -1258,20 +1285,21 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
                     1,
                     2
                 ],
-                "text": "January - February"
+                "text": "Jan - Feb"
             }
         }
     },
     {
         "id": 28,
         "name": "Giant Cicada",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/58/NH-Icon-giantcicada.png/revision/latest?cb=20200401005428",
         "location": "On trees",
         "price": 600,
         "times": {
@@ -1294,20 +1322,21 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
                     1,
                     2
                 ],
-                "text": "January - February"
+                "text": "Jan - Feb"
             }
         }
     },
     {
         "id": 29,
         "name": "Walker Cicada",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ec/NH-Icon-walkercicada.png/revision/latest?cb=20200401005429",
         "location": "On trees",
         "price": 400,
         "times": {
@@ -1330,20 +1359,21 @@
                     8,
                     9
                 ],
-                "text": "August - September"
+                "text": "Aug - Sep"
             },
             "southern": {
                 "array": [
                     2,
                     3
                 ],
-                "text": "February - March"
+                "text": "Feb - March"
             }
         }
     },
     {
         "id": 30,
         "name": "Evening Cicada",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/16/NH-Icon-eveningcicada.png/revision/latest?cb=20200401005428",
         "location": "On trees",
         "price": 660,
         "times": {
@@ -1364,20 +1394,21 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
                     1,
                     2
                 ],
-                "text": "January - February"
+                "text": "Jan - Feb"
             }
         }
     },
     {
         "id": 31,
         "name": "Cicada Shell",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/97/NH-Icon-cicadashell.png/revision/latest?cb=20200401005428",
         "location": "On trees",
         "price": 10,
         "times": {
@@ -1415,20 +1446,21 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
                     1,
                     2
                 ],
-                "text": "January - February"
+                "text": "Jan - Feb"
             }
         }
     },
     {
         "id": 32,
         "name": "Red Dragonfly",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/eb/NH-Icon-reddragonfly.png/revision/latest?cb=20200401005428",
         "location": "Flying",
         "price": 180,
         "times": {
@@ -1453,7 +1485,7 @@
                     9,
                     10
                 ],
-                "text": "September - October"
+                "text": "Sep - Oct"
             },
             "southern": {
                 "array": [
@@ -1467,6 +1499,7 @@
     {
         "id": 33,
         "name": "Darner Dragonfly",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/70/NH-Icon-darnerdragonfly.png/revision/latest?cb=20200401005428",
         "location": "Flying",
         "price": 230,
         "times": {
@@ -1494,7 +1527,7 @@
                     9,
                     11
                 ],
-                "text": "April - October"
+                "text": "April - Oct"
             },
             "southern": {
                 "array": [
@@ -1506,13 +1539,14 @@
                     11,
                     12
                 ],
-                "text": "October - April"
+                "text": "Oct - April"
             }
         }
     },
     {
         "id": 34,
         "name": "Banded Dragonfly",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/NH-Icon-bandeddragonfly.png/revision/latest?cb=20200401005428",
         "location": "Flying",
         "price": 4500,
         "times": {
@@ -1539,7 +1573,7 @@
                     9,
                     11
                 ],
-                "text": "May - October"
+                "text": "May - Oct"
             },
             "southern": {
                 "array": [
@@ -1550,13 +1584,14 @@
                     11,
                     12
                 ],
-                "text": "November - April"
+                "text": "Nov - April"
             }
         }
     },
     {
         "id": 35,
         "name": "Damselfly",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/16/NH-Icon-damselfly.png/revision/latest?cb=20200401005428",
         "location": "Flying",
         "price": 500,
         "times": {
@@ -1596,7 +1631,7 @@
                     11,
                     12
                 ],
-                "text": "November - February"
+                "text": "Nov - Feb"
             },
             "southern": {
                 "array": [
@@ -1605,13 +1640,14 @@
                     7,
                     8
                 ],
-                "text": "May - August"
+                "text": "May - Aug"
             }
         }
     },
     {
         "id": 36,
         "name": "Firefly",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ae/NH-Icon-firefly.png/revision/latest?cb=20200401005428",
         "location": "Flying",
         "price": 300,
         "times": {
@@ -1639,13 +1675,14 @@
                 "array": [
                     12
                 ],
-                "text": "December"
+                "text": "Dec"
             }
         }
     },
     {
         "id": 37,
         "name": "Mole Cricket",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/00/NH-Icon-molecricket.png/revision/latest?cb=20200401005429",
         "location": "Underground",
         "price": 500,
         "times": {
@@ -1688,7 +1725,7 @@
                     11,
                     12
                 ],
-                "text": "November - May"
+                "text": "Nov - May"
             },
             "southern": {
                 "array": [
@@ -1700,13 +1737,14 @@
                     10,
                     11
                 ],
-                "text": "May - November"
+                "text": "May - Nov"
             }
         }
     },
     {
         "id": 38,
         "name": "Pondskater",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f4/NH-Icon-pondskater.png/revision/latest?cb=20200401005429",
         "location": "Ponds",
         "price": 130,
         "times": {
@@ -1734,7 +1772,7 @@
                     8,
                     9
                 ],
-                "text": "May - September"
+                "text": "May - Sep"
             },
             "southern": {
                 "array": [
@@ -1744,13 +1782,14 @@
                     11,
                     12
                 ],
-                "text": "November - March"
+                "text": "Nov - March"
             }
         }
     },
     {
         "id": 39,
         "name": "Diving Beetle",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c5/NH-Icon-divingbeetle.png/revision/latest?cb=20200401005428",
         "location": "Ponds and rivers",
         "price": 800,
         "times": {
@@ -1778,7 +1817,7 @@
                     8,
                     9
                 ],
-                "text": "May - September"
+                "text": "May - Sep"
             },
             "southern": {
                 "array": [
@@ -1788,13 +1827,14 @@
                     11,
                     12
                 ],
-                "text": "November - March"
+                "text": "Nov - March"
             }
         }
     },
     {
         "id": 40,
         "name": "Giant Water Bug",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/55/NH-Icon-giantwaterbug.png/revision/latest?cb=20200401005428",
         "location": "Ponds and rivers",
         "price": 2000,
         "times": {
@@ -1825,7 +1865,7 @@
                     8,
                     9
                 ],
-                "text": "April - September"
+                "text": "April - Sep"
             },
             "southern": {
                 "array": [
@@ -1836,13 +1876,14 @@
                     11,
                     12
                 ],
-                "text": "October - March"
+                "text": "Oct - March"
             }
         }
     },
     {
         "id": 41,
         "name": "Stinkbug",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/80/NH-Icon-stinkbug.png/revision/latest?cb=20200401005429",
         "location": "On flowers",
         "price": 120,
         "times": {
@@ -1886,7 +1927,7 @@
                     9,
                     10
                 ],
-                "text": "March - November"
+                "text": "March - Nov"
             },
             "southern": {
                 "array": [
@@ -1900,13 +1941,14 @@
                     11,
                     12
                 ],
-                "text": "September - May"
+                "text": "Sep - May"
             }
         }
     },
     {
         "id": 42,
         "name": "Man-faced Stink Bug",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Icon-manfacedstinkbug.png/revision/latest?cb=20200401005429",
         "location": "On flowers",
         "price": 1000,
         "times": {
@@ -1939,7 +1981,7 @@
                     9,
                     10
                 ],
-                "text": "March - November"
+                "text": "March - Nov"
             },
             "southern": {
                 "array": [
@@ -1953,13 +1995,14 @@
                     11,
                     12
                 ],
-                "text": "September - May"
+                "text": "Sep - May"
             }
         }
     },
     {
         "id": 43,
         "name": "Ladybug",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/18/NH-Icon-ladybug.png/revision/latest?cb=20200401005428",
         "location": "On flowers",
         "price": 200,
         "times": {
@@ -1985,7 +2028,7 @@
                     6,
                     10
                 ],
-                "text": "March - June, October"
+                "text": "March - June, Oct"
             },
             "southern": {
                 "array": [
@@ -1995,13 +2038,14 @@
                     11,
                     12
                 ],
-                "text": "April, September - December"
+                "text": "April, Sep - Dec"
             }
         }
     },
     {
         "id": 44,
         "name": "Tiger Beetle",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e3/NH-Icon-tigerbeetle.png/revision/latest?cb=20200401005428",
         "location": "On ground",
         "price": 1500,
         "times": {
@@ -2047,7 +2091,7 @@
                     10,
                     11
                 ],
-                "text": "February - November"
+                "text": "Feb - Nov"
             },
             "southern": {
                 "array": [
@@ -2062,13 +2106,14 @@
                     11,
                     12
                 ],
-                "text": "August - May"
+                "text": "Aug - May"
             }
         }
     },
     {
         "id": 45,
         "name": "Jewel Beetle",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Icon-jewelbeetle.png/revision/latest?cb=20200401005428",
         "location": "On trees",
         "price": 2400,
         "times": {
@@ -2109,7 +2154,7 @@
                     7,
                     8
                 ],
-                "text": "April - August"
+                "text": "April - Aug"
             },
             "southern": {
                 "array": [
@@ -2119,13 +2164,14 @@
                     11,
                     12
                 ],
-                "text": "October - February"
+                "text": "Oct - Feb"
             }
         }
     },
     {
         "id": 46,
         "name": "Violin Beetle",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6a/NH-Icon-violinbeetle.png/revision/latest?cb=20200401005429",
         "location": "On tree stumps",
         "price": 450,
         "times": {
@@ -2166,7 +2212,7 @@
                     10,
                     11
                 ],
-                "text": "May - June, September - November"
+                "text": "May - June, Sep - Nov"
             },
             "southern": {
                 "array": [
@@ -2175,13 +2221,14 @@
                     11,
                     12
                 ],
-                "text": "November - December, March - April"
+                "text": "Nov - Dec, March - April"
             }
         }
     },
     {
         "id": 47,
         "name": "Citrus Long-horned Beetle",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Icon-citruslonghornedbeetle.png/revision/latest?cb=20200401005428",
         "location": "On tree stumps",
         "price": 350,
         "times": {
@@ -2253,6 +2300,7 @@
     {
         "id": 48,
         "name": "Rosalia Batesi Beetle",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e0/NH-Icon-rosaliabatesibeetle.png/revision/latest?cb=20200401005429",
         "location": "On tree stumps",
         "price": 3000,
         "times": {
@@ -2293,7 +2341,7 @@
                     8,
                     9
                 ],
-                "text": "May - September"
+                "text": "May - Sep"
             },
             "southern": {
                 "array": [
@@ -2303,13 +2351,14 @@
                     11,
                     12
                 ],
-                "text": "November - March"
+                "text": "Nov - March"
             }
         }
     },
     {
         "id": 49,
         "name": "Blue Weevil Beetle",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f5/NH-Icon-blueweevilbeetle.png/revision/latest?cb=20200401005428",
         "location": "On palm trees",
         "price": 800,
         "times": {
@@ -2347,25 +2396,26 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
                     1,
                     2
                 ],
-                "text": "January - February"
+                "text": "Jan - Feb"
             }
         }
     },
     {
         "id": 50,
         "name": "Dung Beetle",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/NH-Icon-dungbeetle.png/revision/latest?cb=20200401005431",
         "location": "Pushing snowballs",
         "price": 3000,
         "times": {
             "array": [],
-            "text": "--UNKNOWN--"
+            "text": "All Day"
         },
         "months": {
             "northern": {
@@ -2374,7 +2424,7 @@
                     2,
                     12
                 ],
-                "text": "December - February"
+                "text": "Dec - Feb"
             },
             "southern": {
                 "array": [
@@ -2382,13 +2432,14 @@
                     7,
                     8
                 ],
-                "text": "June - August"
+                "text": "June - Aug"
             }
         }
     },
     {
         "id": 51,
         "name": "Earth-boring Dung Beetle",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0c/NH-Icon-earthboringdungbeetle.png/revision/latest?cb=20200401005428",
         "location": "On ground",
         "price": 300,
         "times": {
@@ -2427,7 +2478,7 @@
                     8,
                     9
                 ],
-                "text": "July - September"
+                "text": "July - Sep"
             },
             "southern": {
                 "array": [
@@ -2435,13 +2486,14 @@
                     2,
                     3
                 ],
-                "text": "January - March"
+                "text": "Jan - March"
             }
         }
     },
     {
         "id": 52,
         "name": "Scarab Beetle",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4c/NH-Icon-scarabbeetle.png/revision/latest?cb=20200401005429",
         "location": "On trees",
         "price": 10000,
         "times": {
@@ -2464,20 +2516,21 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
                     1,
                     2
                 ],
-                "text": "January - February"
+                "text": "Jan - Feb"
             }
         }
     },
     {
         "id": 53,
         "name": "Drone Beetle",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/99/NH-Icon-dronebeetle.png/revision/latest?cb=20200401005428",
         "location": "On trees",
         "price": 200,
         "times": {
@@ -2516,7 +2569,7 @@
                     7,
                     8
                 ],
-                "text": "June - August"
+                "text": "June - Aug"
             },
             "southern": {
                 "array": [
@@ -2524,13 +2577,14 @@
                     2,
                     12
                 ],
-                "text": "December - February"
+                "text": "Dec - Feb"
             }
         }
     },
     {
         "id": 54,
         "name": "Goliath Beetle",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5b/NH-Icon-goliathbeetle.png/revision/latest?cb=20200401005428",
         "location": "On trees",
         "price": 8000,
         "times": {
@@ -2561,7 +2615,7 @@
                     8,
                     9
                 ],
-                "text": "June - September"
+                "text": "June - Sep"
             },
             "southern": {
                 "array": [
@@ -2570,13 +2624,14 @@
                     3,
                     12
                 ],
-                "text": "December - March"
+                "text": "Dec - March"
             }
         }
     },
     {
         "id": 55,
         "name": "Saw Stag",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/48/NH-Icon-sawstag.png/revision/latest?cb=20200401005429",
         "location": "On trees",
         "price": 2000,
         "times": {
@@ -2614,20 +2669,21 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
                     1,
                     2
                 ],
-                "text": "January - February"
+                "text": "Jan - Feb"
             }
         }
     },
     {
         "id": 56,
         "name": "Miyama Stag",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1b/NH-Icon-miyamastag.png/revision/latest?cb=20200401005429",
         "location": "On trees",
         "price": 1000,
         "times": {
@@ -2665,20 +2721,21 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
                     1,
                     2
                 ],
-                "text": "January - February"
+                "text": "Jan - Feb"
             }
         }
     },
     {
         "id": 57,
         "name": "Giant Stag",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/25/NH-Icon-giantstag.png/revision/latest?cb=20200401005428",
         "location": "On trees",
         "price": 10000,
         "times": {
@@ -2701,20 +2758,21 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
                     1,
                     2
                 ],
-                "text": "January - February"
+                "text": "Jan - Feb"
             }
         }
     },
     {
         "id": 58,
         "name": "Rainbow Stag",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-rainbowstag.png/revision/latest?cb=20200401005429",
         "location": "On trees",
         "price": 6000,
         "times": {
@@ -2743,7 +2801,7 @@
                     8,
                     9
                 ],
-                "text": "June - September"
+                "text": "June - Sep"
             },
             "southern": {
                 "array": [
@@ -2752,13 +2810,14 @@
                     3,
                     12
                 ],
-                "text": "December - March"
+                "text": "Dec - March"
             }
         }
     },
     {
         "id": 59,
         "name": "Cyclommatus Stag",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/17/NH-Icon-cyclommatusstag.png/revision/latest?cb=20200401005428",
         "location": "On trees",
         "price": 8000,
         "times": {
@@ -2787,20 +2846,21 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
                     1,
                     2
                 ],
-                "text": "January - February"
+                "text": "Jan - Feb"
             }
         }
     },
     {
         "id": 60,
         "name": "Golden Stag",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Icon-goldenstag.png/revision/latest?cb=20200401005428",
         "location": "On trees",
         "price": 12000,
         "times": {
@@ -2829,20 +2889,21 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
                     1,
                     2
                 ],
-                "text": "January - February"
+                "text": "Jan - Feb"
             }
         }
     },
     {
         "id": 61,
         "name": "Giraffe Stag",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Icon-giraffestag.png/revision/latest?cb=20200401005428",
         "location": "On trees",
         "price": 12000,
         "times": {
@@ -2871,20 +2932,21 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
                     1,
                     2
                 ],
-                "text": "January - February"
+                "text": "Jan - Feb"
             }
         }
     },
     {
         "id": 62,
         "name": "Horned Dynastid",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/NH-Icon-hornedatlas.png/revision/latest?cb=20200401005428",
         "location": "On trees",
         "price": 1350,
         "times": {
@@ -2913,20 +2975,21 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
                     1,
                     2
                 ],
-                "text": "January - February"
+                "text": "Jan - Feb"
             }
         }
     },
     {
         "id": 63,
         "name": "Horned Atlas",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/NH-Icon-hornedatlas.png/revision/latest?cb=20200401005428",
         "location": "On trees",
         "price": 8000,
         "times": {
@@ -2955,20 +3018,21 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
                     1,
                     2
                 ],
-                "text": "January - February"
+                "text": "Jan - Feb"
             }
         }
     },
     {
         "id": 64,
         "name": "Horned Elephant",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4f/NH-Icon-hornedelephant.png/revision/latest?cb=20200401005429",
         "location": "On trees",
         "price": 8000,
         "times": {
@@ -2997,20 +3061,21 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
                     1,
                     2
                 ],
-                "text": "January - February"
+                "text": "Jan - Feb"
             }
         }
     },
     {
         "id": 65,
         "name": "Horned Herucles",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c2/NH-Icon-hornedhercules.png/revision/latest?cb=20200401005428",
         "location": "On trees",
         "price": 12000,
         "times": {
@@ -3039,21 +3104,22 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
                     1,
                     2
                 ],
-                "text": "January - February"
+                "text": "Jan - Feb"
             }
         }
     },
     {
         "id": 66,
         "name": "Walking Stick",
-        "location": "Falls from shaking trees",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/62/NH-Icon-walkingstick.png/revision/latest?cb=20200401005428",
+        "location": "Shaking trees",
         "price":600,
         "times": {
             "array": [
@@ -3075,7 +3141,7 @@
                     10,
                     11
                 ],
-                "text": "July - November"
+                "text": "July - Nov"
             },
             "southern": {
                 "array": [
@@ -3085,13 +3151,14 @@
                     4,
                     5
                 ],
-                "text": "January - May"
+                "text": "Jan - May"
             }
         }
     },
     {
         "id": 67,
         "name": "Walking Leaf",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cb/NH-Icon-walkingleaf.png/revision/latest?cb=20200401005429",
         "location": "Near trees, disguised as leaf",
         "price": 600,
         "times": {
@@ -3129,7 +3196,7 @@
                     7,
                     8
                 ],
-                "text": "July - August"
+                "text": "July - Aug"
             },
             "southern": {
                 "array": [
@@ -3137,14 +3204,15 @@
                     2,
                     3
                 ],
-                "text": "January - March"
+                "text": "Jan - March"
             }
         }
     },
     {
         "id": 68,
         "name": "Bagworm",
-        "location": "Falls from shaking trees",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/81/NH-Icon-bagworm.png/revision/latest?cb=20200401005428",
+        "location": "Shaking trees",
         "price": 600,
         "times": {
             "array": [
@@ -3215,7 +3283,8 @@
     {
         "id": 69,
         "name": "Ant",
-        "location": "On Rotten Food",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/45/NH-Icon-ant.png/revision/latest?cb=20200401005428",
+        "location": "On rotten turnips",
         "price": 80,
         "times": {
             "array": [
@@ -3286,6 +3355,7 @@
     {
         "id": 70,
         "name": "Hermit Crab",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-Icon-hermitcrab.png/revision/latest?cb=20200401005430",
         "location": "Beach",
         "price": 1000,
         "times": {
@@ -3346,7 +3416,8 @@
     {
         "id": 71,
         "name": "Wharf Roach",
-        "location": "On rocks at beach",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5d/NH-Icon-wharfroach.png/revision/latest?cb=20200401005428",
+        "location": "On beach rocks",
         "price": 200,
         "times": {
             "array": [
@@ -3417,7 +3488,8 @@
     {
         "id": 72,
         "name": "Fly",
-        "location": "On trash items",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4f/NH-Icon-fly.png/revision/latest?cb=20200401005428",
+        "location": "On trash",
         "price": 60,
         "times": {
             "array": [
@@ -3488,6 +3560,7 @@
     {
         "id": 73,
         "name": "Mosquito",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/NH-Icon-mosquito.png/revision/latest?cb=20200401005429",
         "location": "Flying",
         "price": 130,
         "times": {
@@ -3514,7 +3587,7 @@
                     8,
                     9
                 ],
-                "text": "June - September"
+                "text": "June - Sep"
             },
             "southern": {
                 "array": [
@@ -3523,13 +3596,14 @@
                     3,
                     12
                 ],
-                "text": "December - March"
+                "text": "Dec - March"
             }
         }
     },
     {
         "id": 74,
         "name": "Flea",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/92/NH-Icon-flea.png/revision/latest?cb=20200401005428",
         "location": "On villagers",
         "price": 70,
         "times": {
@@ -3573,7 +3647,7 @@
                     10,
                     11
                 ],
-                "text": "April - November"
+                "text": "April - Nov"
             },
             "southern": {
                 "array": [
@@ -3586,14 +3660,15 @@
                     11,
                     12
                 ],
-                "text": "October - May"
+                "text": "Oct - May"
             }
         }
     },
     {
         "id": 75,
         "name": "Snail",
-        "location": "On rocks (raining)",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b1/NH-Icon-snail.png/revision/latest?cb=20200401005429",
+        "location": "On rocks and bushes (raining)",
         "price": 250,
         "times": {
             "array": [
@@ -3664,7 +3739,8 @@
     {
         "id": 76,
         "name": "Pill Bug",
-        "location": "Hit rocks",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c5/NH-Icon-pillbug.png/revision/latest?cb=20200401005428",
+        "location": "Hitting rocks",
         "price": 250,
         "times": {
             "array": [
@@ -3702,7 +3778,7 @@
                     11,
                     12
                 ],
-                "text": "September - June"
+                "text": "Sep - June"
             },
             "southern": {
                 "array": [
@@ -3717,14 +3793,15 @@
                     11,
                     12
                 ],
-                "text": "March - December"
+                "text": "March - Dec"
             }
         }
     },
     {
         "id": 77,
         "name": "Centipede",
-        "location": "Hit rocks",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/30/NH-Icon-centipede.png/revision/latest?cb=20200401005429",
+        "location": "Hitting rocks",
         "price": 300,
         "times": {
             "array": [
@@ -3752,7 +3829,7 @@
                     11,
                     12
                 ],
-                "text": "September - June"
+                "text": "Sep - June"
             },
             "southern": {
                 "array": [
@@ -3767,14 +3844,15 @@
                     11,
                     12
                 ],
-                "text": "March - December"
+                "text": "March - Dec"
             }
         }
     },
     {
         "id": 78,
         "name": "Spider",
-        "location": "Falls from shaking trees",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/26/NH-Icon-spider.png/revision/latest?cb=20200401005429",
+        "location": "Shaking trees",
         "price": 480,
         "times": {
             "array": [
@@ -3834,6 +3912,7 @@
     {
         "id": 79,
         "name": "Tarantula",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0a/NH-Icon-tarantula.png/revision/latest?cb=20200401005429",
         "location": "On ground",
         "price": 8000,
         "times": {
@@ -3860,7 +3939,7 @@
                     11,
                     12
                 ],
-                "text": "November - April"
+                "text": "Nov - April"
             },
             "southern": {
                 "array": [
@@ -3871,13 +3950,14 @@
                     9,
                     10
                 ],
-                "text": "May - October"
+                "text": "May - Oct"
             }
         }
     },
     {
         "id": 80,
         "name": "Scorpion",
+        "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/34/NH-Icon-scorpion.png/revision/latest?cb=20200401005429",
         "location": "On ground",
         "price": 8000,
         "times": {
@@ -3904,7 +3984,7 @@
                     9,
                     11
                 ],
-                "text": "May - October"
+                "text": "May - Oct"
             },
             "southern": {
                 "array": [
@@ -3915,7 +3995,7 @@
                     11,
                     12
                 ],
-                "text": "November - April"
+                "text": "Nov - April"
             }
         }
     }

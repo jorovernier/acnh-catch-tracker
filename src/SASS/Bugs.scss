@@ -13,29 +13,64 @@
         margin: 5px;
         border-radius: 50px;
         border: solid 5px black;
-        .bug-name {
-            width: 150px;
+        .img-name {
             display: flex;
             align-items: center;
             justify-content: center;
+            .bug-image {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    width: 75px;
+                }
+            }
+            .bug-name {
+                width: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
         }
         .bug-loc {
-            width: 180px;
+            width: 110px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             text-align: center;
         }
+        .m-t {
+            width: 125px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            .bug-months {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+            .bug-time {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+        }
         .bug-price {
-            width: 150px;
+            width: 75px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
         }
         .bug-buttons {
-            width: 200px;
+            width: 100px;
             display: flex;
             align-items: center;
             justify-content: space-around;
@@ -65,19 +100,36 @@
 @media (max-width: 420px) {
     .mapped-bugs {
         .bug {
-            .bug-name {
-                width: 70px;
-                text-align: center;
+            .img-name {
+                width: 100px;
+                flex-direction: column;
+                .bug-image {
+                    img {
+                        width: 50px;
+                    }
+                }
+                .bug-name {
+                    width: 80px;
+                    text-align: center;
+                }
             }
             .bug-loc {
                 width: 70px;
                 text-align: center;
+            }
+            .m-t {
+                width: 90px;
             }
             .bug-price {
                 width: 50px;
             }
             .bug-buttons {
                 width: auto;
+                .bbutt {
+                    .caught {
+                        display: none;
+                    }
+                }
             }
         }
     }
