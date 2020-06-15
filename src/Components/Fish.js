@@ -29,7 +29,7 @@ export default class Fish extends React.Component {
             <div className='fish'>
                 <div className='img-name'>
                     <div className='fish-image'>
-                        <img src={fish.image}/>
+                        <img src={fish.image} alt={`inventory icon of ${fish.name}`}/>
                     </div>
                     <span className='fish-name'>{fish.name}</span>
                 </div>

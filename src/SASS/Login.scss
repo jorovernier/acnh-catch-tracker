@@ -87,6 +87,39 @@
     }
 }
 
+@media (max-width: 1400px) {
+    .login-body {
+        .bubble {
+            .welcome {
+                p {
+                    text-align: center;
+                }
+            }
+            .login-register {
+                justify-content: space-evenly;
+                .potential {
+                    width: 30vw;
+                    img {
+                        width: 30vw;
+                    }
+                }
+                form {
+                    width: 30vw;
+                    .inputs {
+                        width: 30vw;
+                        .username-i {
+                            width: 25vw;
+                        }
+                        .password-i {
+                            width: 25vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (width: 1366px) {
     .login-body {
         .bubble {
@@ -229,21 +262,21 @@
                     text-align: center;
                 }
                 img {
-                    width: 300px;
+                    width: 35vw;
                 }
             }
             .login-register {
-                height: 500px;
+                height: 50vh;
                 flex-direction: column;
                 justify-content: space-evenly;
                 .potential {
-                    width: 400px;
+                    width: 40vw;
                     img {
-                        width: 400px;
+                        width: 40vw;
                     }
                 }
                 form {
-                    height: 200px;
+                    height: 20vh;
                     width: 300px;
                     .inputs {
                         border-radius: 50px;

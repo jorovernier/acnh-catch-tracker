@@ -83,10 +83,11 @@
                     border-radius: 50px;
                     width: 30px;
                     height: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                     p {
                         border-radius: 50px;
-                        position: relative;
-                        left: -5px;
                         font-size: 20px;
                         height: 25px;
                         width: 25px;

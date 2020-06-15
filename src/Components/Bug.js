@@ -29,7 +29,7 @@ export default class Bug extends React.Component {
             <div className='bug'>
                 <div className='img-name'>
                     <div className='bug-image'>
-                        <img src={bug.image} />
+                        <img src={bug.image} alt={`inventory icon of ${bug.name}`}/>
                     </div>
                     <span className='bug-name'>{bug.name}</span>
                 </div>
