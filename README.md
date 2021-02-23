@@ -1,8 +1,8 @@
 # Animal Crossing New Horizons Catch Tracker
 
-[![site status](https://img.shields.io/website?down_color=%23b93724&down_message=offline&up_color=%23418f60&up_message=online&url=https%3A%2F%2Fcatchtracker.xyz)](https://img.shields.io/website?down_color=%23b93724&down_message=offline&up_color=%23418f60&up_message=online&url=https%3A%2F%2Fcatchtracker.xyz)
-[![repo size](https://img.shields.io/github/repo-size/jorovernier/acnh-catch-tracker?color=red)](https://img.shields.io/github/repo-size/jorovernier/acnh-catch-tracker?color=red)
-[![react version](https://img.shields.io/badge/dynamic/json?color=%2361dafb&label=react&query=%24.dependencies.react&url=https%3A%2F%2Fraw.githubusercontent.com%2Fjorovernier%2Facnh-catch-tracker%2Fmaster%2Fpackage.json)](https://img.shields.io/badge/dynamic/json?color=%2361dafb&label=react&query=%24.dependencies.react&url=https%3A%2F%2Fraw.githubusercontent.com%2Fjorovernier%2Facnh-catch-tracker%2Fmaster%2Fpackage.json)
+[![site status](https://img.shields.io/website?down_color=%23b93724&down_message=offline&up_color=success&up_message=online&url=https%3A%2F%2Fcatchtracker.xyz)](https://img.shields.io/website?down_color=%23b93724&down_message=offline&up_color=success&up_message=online&url=https%3A%2F%2Fcatchtracker.xyz)
+[![lines of code](https://img.shields.io/tokei/lines/github/jorovernier/acnh-catch-tracker?color=ff69b4)](https://img.shields.io/tokei/lines/github/jorovernier/acnh-catch-tracker?color=ff69b4)
+[![repo size](https://img.shields.io/github/repo-size/jorovernier/acnh-catch-tracker?color=blueviolet)](https://img.shields.io/github/repo-size/jorovernier/acnh-catch-tracker?color=blueviolet)
 
 ## Front End
 

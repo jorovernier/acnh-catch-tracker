@@ -40,7 +40,7 @@ export default class Flower extends React.Component {
                             e.preventDefault();
                             this.amountGrown();
                         }}>
-                            <input className='amount-input' type='number' value={this.state.amount} onChange={(e) => {this.setState({amount: e.target.value})}} />
+                            <input className='amount-input' type='number' value={this.state.amount} onChange={(e) => {e.target.value >= 0 ? (this.setState({amount: e.target.value})) : (window.alert('Please input a positive number.'))}} />
                             {this.state.amount && <button>Save</button>}
                         </form>
                     </span>
