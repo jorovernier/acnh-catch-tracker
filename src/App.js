@@ -42,7 +42,7 @@ class App extends React.Component {
             <Route path='*' render={() => {return <Redirect to='/' />}} />
           </Switch>
           <footer>
-            <small>&copy; Copyright 2020 Joely Vernier, All Rights Reserved</small>
+            <small>&copy; Copyright 2021 Joely Vernier, All Rights Reserved</small>
           </footer>
       </div>
     )
